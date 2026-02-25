@@ -12,7 +12,7 @@ La solución se despliega mediante **contenedores Docker** usando **Docker Compo
 ---
 
 ## Repositorio (GitHub)
-- Repo: https://github.com/davidmaryluz6-stack/<NOMBRE_DEL_REPO>
+- Repo: https://github.com/davidmaryluz6-stack/iudigital-api
 
 ---
 
@@ -85,3 +85,4 @@ En la raíz del proyecto:
 ```bash
 docker compose pull
 docker compose up
+
