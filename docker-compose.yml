@@ -8,8 +8,7 @@ services:
       - mongo_data:/data/db
 
   monolito-api:
-    build:
-      context: ./monolito-api
+    image: davidmaryluz6/monolito-api:1.0
     container_name: monolito_api
     ports:
       - "3000:3000"
@@ -20,8 +19,7 @@ services:
       - mongo
 
   ms-proyectos:
-    build:
-      context: ./ms-proyectos
+    image: davidmaryluz6/ms-proyectos:1.0
     container_name: ms_proyectos
     ports:
       - "3001:3001"
